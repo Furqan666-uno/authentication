@@ -8,7 +8,7 @@ from .serializers import RegisterSerializer, LoginSerializer
 
 class RegisterView(generics.CreateAPIView):
     serializer_class= RegisterSerializer
-    http_method_names = ['post']
+    http_method_names = ['post'] # this line is not required, can ignore this line 
 
 
 class LoginView(generics.GenericAPIView):
