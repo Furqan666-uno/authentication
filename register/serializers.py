@@ -14,6 +14,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         fields= ('id', 'username', 'email', 'password', 'password2')
 
     def create(self, validated_data):
+        # password field does'nt exist in models.py, so here we create for user, but pop it when sending request to models.py 
         password= validated_data.pop('password')
         password2= validated_data.pop('password2')
         username= validated_data['username']
