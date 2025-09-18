@@ -23,7 +23,7 @@ export const AuthProvider= ({children})=> {
     );
 
     const [loading, setLoading]= useState(true)
-    const navigate= useNavigate() // named history in video
+    const navigate= useNavigate() 
 
 
     //function to login user
