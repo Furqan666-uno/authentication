@@ -73,7 +73,7 @@ function Homepage() {
     {/* /container */}
   </main>
   <footer className="container">
-    <p>© Company 2017-2018</p>
+    <p>© Company 2025-2025</p>
   </footer>
 </>
 
